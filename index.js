@@ -12,4 +12,7 @@ function upsert(array, test, obj) {
     } else {
         array.push(obj);
     }
+    
+    // Array is already modified, but return it for convenience
+    return array;
 };
