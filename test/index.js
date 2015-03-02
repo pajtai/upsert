@@ -9,11 +9,11 @@ describe('upsert', function() {
 
    it('should modify existing object', function() {
 
-       var ar = [{a:1}];
+       var ar = [{a:1, b:2}];
 
        upsert(ar, function(item) {return 1 === item.a }, { a: 2 });
 
-       ar.pop().should.deep.equal({a:2});
+       ar.pop().should.deep.equal({a:2, b:2});
        ar.length.should.equal(0);
    });
 
@@ -24,5 +24,11 @@ describe('upsert', function() {
 
         ar.pop().should.deep.equal({a:2});
         ar.length.should.equal(0);
+    });
+
+    it('should return the array being modified', function() {
+        var ar = [];
+
+        upsert(ar).should.equal(ar);
     });
 });
