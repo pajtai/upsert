@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/pajtai/upsert.git"
   },
-  "author": "",
+  "author": "Peter Ajtai <peter.ajtai@thinksolid.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pajtai/upsert/issues"
