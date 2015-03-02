@@ -9,7 +9,7 @@ Takes an array and modifies it by either updating the object matched by the pred
 var upsert = require('upsert')
 
 upsert(
-    array,
+    arrayOfPeople,
     function(item) {
         item.name = 'jane';
     },
@@ -17,3 +17,8 @@ upsert(
         degree: 'doctorate'
     });
 ```
+
+If the test doesn't match anything in the array, "object" will be pushed onto the array. If the test matches something
+in the array, then object will be extended onto what was matched.
+
+To run the tests do, `npm install && npm test`.
