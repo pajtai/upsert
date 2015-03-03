@@ -1,7 +1,7 @@
 Upsert [![Build Status](https://travis-ci.org/pajtai/upsert.png?branch=master)](https://travis-ci.org/pajtai/upsert)
 ===
 
-### Description
+### Usage
 
 Takes an array and modifies it by either updating the object matched by the predicate, or inserting a new object:
 
@@ -28,7 +28,7 @@ If there are multiple matches, only the first one is modified.
 
 The array that is passed in is modified, and it is also - for convenience - returned.
 
-### Usage
+### Installing
 
 To use in a project:
 
