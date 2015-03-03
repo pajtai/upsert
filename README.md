@@ -32,7 +32,7 @@ The array that is passed in is modified, and it is also - for convenience - retu
 
 To use in a project:
 
-    [npm install --save upsert](https://www.npmjs.com/package/upsert)
+> [npm install --save upsert](https://www.npmjs.com/package/upsert)
 
 ### Tests
 
