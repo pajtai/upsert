@@ -14,6 +14,7 @@ upsert(
         return 'jane' === item.name;
     },
     {
+        name: 'jane',
         degree: 'doctorate'
     });
 ```
