@@ -21,8 +21,8 @@ upsert(
     });
 ```
 
-If the test doesn't match anything in the array, "object" will be pushed onto the array. If the test matches something
-in the array, then object will be extended onto what was matched.
+If `test` doesn't return true for anything in `array`, `object` will be pushed onto `array`. If `test` matches 
+something in `array`, then `object` will be extended onto what was matched.
 
 If there are multiple matches, only the first one is modified.
 
