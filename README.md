@@ -11,7 +11,7 @@ var upsert = require('upsert')
 upsert(
     arrayOfPeople,
     function(item) {
-        item.name = 'jane';
+        return 'jane' === item.name;
     },
     {
         degree: 'doctorate'
