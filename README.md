@@ -13,10 +13,10 @@ var upsert = require('upsert')
 upsert(
     arrayOfPeople,
     function(item) {
-        return 'jane' === item.name;
+        return 'goodall' === item.name;
     },
     {
-        name: 'jane',
+        name: 'dr goodall',
         degree: 'doctorate'
     });
 ```
