@@ -36,4 +36,4 @@ To use in a project:
 
 ### Tests
 
-To run the tests, `git clone`, `git install`, `npm install`, `npm test`.
+To run the tests, `git clone`, `npm install`, `npm test`.
