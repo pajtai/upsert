@@ -12,8 +12,8 @@ var upsert = require('upsert')
 
 upsert(
     arrayOfPeople,
-    function(item) {
-        return 'goodall' === item.name;
+    function(person) {
+        return 'goodall' === person.name;
     },
     {
         name: 'dr goodall',
