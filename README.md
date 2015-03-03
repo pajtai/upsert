@@ -30,6 +30,10 @@ The array that is passed in is modified, and it is also - for convenience - retu
 
 ### Usage
 
-[npm install --save upsert](https://www.npmjs.com/package/upsert)
+To use in a project:
 
-To run the tests do, `npm install && npm test`.
+    [npm install --save upsert](https://www.npmjs.com/package/upsert)
+
+### Tests
+
+To run the tests, `git clone`, `git install`, `npm install`, `npm test`.
